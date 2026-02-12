@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <title>Главная</title>
+</head>
+<body>
+<div class="main-page-container">
+    <header>
+        <div class="header-element"><a href="index.php" class="logo-link">Логотип</a></div>
+        <div class="header-element"><a href="../scripts/auth" class="entry-link">Войти</a></div>
+    </header>
+    <main>
+        <div class="content-container">
+            <div class="">
+                <span>Поиск жилья</span>
+            </div>
+            <div class="search-container">
+                <form>
+                    <input type="text" class="search-element-inp" name="city" placeholder="Введите город" value="">
+
+                    <select class="search-element-select">
+                        <option value="">Квартира</option>
+                        <option value="">Дом</option>
+                        <option value="">Аппартаменты</option>
+                    </select>
+
+                    <input type="button" value="Все">
+
+                    <input type="button" value="Вторичка">
+
+                    <input type="button" value="Новостройка">
+
+                    <input type="number" class="search-element-inp" name="min_price" placeholder="Цена от" value="">
+                    <input type="number" class="search-element-inp" name="max_price" placeholder="Цена до" value="">
+                    
+                </form>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>

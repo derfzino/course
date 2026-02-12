@@ -1,0 +1,128 @@
+* {
+  margin:0;
+  padding: 0;
+  outline: none;
+}
+a{
+  text-decoration: none; 
+  color: rgb(247, 0, 0);
+}
+:root{
+  --main-color: #151597;
+  --main-hov-color: #01003b;
+  --main-menu-color: #a6a6b4;
+  --main-menu-hov-color: #7bbd7e;
+  --main-menu-out-color: #292929;
+  --main-menu-out-hov-color: #0c0c0c;
+  --text-color: #fff;
+
+  --product-main: #ffffff;
+  --product-name: #1f1f1f;
+  --product-price: #ad3e3e;
+  --product-button: #f3f3f3;
+  --star-color: #ecc908;
+  --reviews-color: #d5d5d5;
+}
+
+.authentication-container{
+  background-color: var(--product-main);
+  border-radius: 35px;
+  width: 360px;
+  padding: 25px;
+}
+.form-name{
+  text-align: center;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.form-group input{
+  border-radius: 12px;
+  border:2px solid #E1E1E1;
+  padding: 0 10px;
+  height: 40px;
+  max-height: 44px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.authentication-container button{
+  background-color:var(--main-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 12px;
+  width: 360px;
+  height: 40px;
+  font-size: 18px;
+  margin-top: 15px;
+  &:hover{
+    background-color:var(--main-hov-color);
+  }
+}
+
+.link-to-repass{
+  text-align: center;
+}
+.link-to-repass a{
+  color:var(--main-color);
+  font-size: 18px;
+  &:hover{
+    color:var(--main-hov-color);
+  }
+}
+
+.or{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 15px 0;
+}
+.or hr{
+  width: 340px;
+  border:1px solid #1f1f1f;
+}
+.or span{
+  position: absolute;
+  top: 0;
+  left: 5;
+  padding: 5px;
+  background-color: var(--product-main);
+}
+
+.altlog a{
+  border-radius: 12px;
+  border: 2px solid #E1E1E1;
+  background-color: var(--product-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+  color: #1f1f1f;
+  transition: 0.5s;
+  margin-bottom: 8px;
+  &:hover{
+    background-color: #E1E1E1;
+  }
+}
+.altlog a span{
+  height: 18px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.link-to-register{
+  text-align: center;
+}
+.link-to-register span{
+  color: #1f1f1f;
+}
+.link-to-register a{
+  color:var(--main-color);
+  font-size: 18px;
+  &:hover{
+    color:var(--main-hov-color);
+  }
+}
